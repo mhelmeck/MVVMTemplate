@@ -103,8 +103,8 @@
 				CC5732E9290F4D1F00FFBB3F /* SceneDelegate.swift */,
 				CC5732EB290F4D1F00FFBB3F /* ViewController.swift */,
 				CC5732ED290F4D1F00FFBB3F /* Main.storyboard */,
-				CC5732F0290F4D2000FFBB3F /* Assets.xcassets */,
 				CC5732F2290F4D2000FFBB3F /* LaunchScreen.storyboard */,
+				CC5732F0290F4D2000FFBB3F /* Assets.xcassets */,
 				CC5732F5290F4D2000FFBB3F /* Info.plist */,
 			);
 			path = MVVMTemplate;
