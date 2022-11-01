@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>generateViewModelProtocol</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import Foundation
+
+typealias TemplateViewModelInputOutput = TemplateViewModelInput &amp; TemplateViewModelOutput
+
+protocol TemplateViewModelInput {}
+
+protocol TemplateViewModelOutput {
+    var output: TemplateViewModel.Output { get set }
+    var emit: ((TemplateViewModel.Output) -&gt; Void)? { get set }
+}
+
+extension TemplateViewModel {
+    struct Output {}
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>05C6E5B9-6F3D-43A1-8757-671AF466EB24</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TemplateViewModelInputOutput</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
