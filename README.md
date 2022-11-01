@@ -1,8 +1,9 @@
 # MVVMTemplate
 
+> Example of MVVM architecture with no usage of RxSwift or Combine framework 
+
 MVVMTemplate is my private Swift project starter.
 I use it to set up initial files and generate a template scene. 
-> Example of MVVM architecture with no usage of RxSwift or Combine framework 
 
 To satisfy MVVM rules and keep code clean and unified I use my own code snippets to generate scenes.
 
