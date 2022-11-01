@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0F37F829118C7A008F3D63 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F37F729118C7A008F3D63 /* Configurable.swift */; };
+		CC0F37FA29118C9F008F3D63 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F37F929118C9F008F3D63 /* UIView+Extensions.swift */; };
+		CC0F37FC29118CBD008F3D63 /* PresentableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F37FB29118CBD008F3D63 /* PresentableViewController.swift */; };
+		CC0F380029118D19008F3D63 /* PresentableTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F37FF29118D19008F3D63 /* PresentableTemplateViewController.swift */; };
+		CC0F380229118D2A008F3D63 /* TemplateViewModelInputOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F380129118D2A008F3D63 /* TemplateViewModelInputOutput.swift */; };
+		CC0F380429118D36008F3D63 /* TemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F380329118D36008F3D63 /* TemplateViewController.swift */; };
+		CC0F380629118D44008F3D63 /* TemplateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F380529118D44008F3D63 /* TemplateViewModel.swift */; };
+		CC0F380929118EB7008F3D63 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F380829118EB7008F3D63 /* Coordinator.swift */; };
+		CC0F380B29118EC1008F3D63 /* ViewControllerBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F380A29118EC1008F3D63 /* ViewControllerBuilding.swift */; };
+		CC0F380D29118EFE008F3D63 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F380C29118EFE008F3D63 /* RootCoordinator.swift */; };
+		CC0F380F29118F07008F3D63 /* ViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F380E29118F07008F3D63 /* ViewControllerBuilder.swift */; };
 		CC5732EA290F4D1F00FFBB3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5732E9290F4D1F00FFBB3F /* SceneDelegate.swift */; };
 		CC5732EC290F4D1F00FFBB3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5732EB290F4D1F00FFBB3F /* ViewController.swift */; };
 		CC5732F1290F4D2000FFBB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5732F0290F4D2000FFBB3F /* Assets.xcassets */; };
@@ -34,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC0F37F729118C7A008F3D63 /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		CC0F37F929118C9F008F3D63 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		CC0F37FB29118CBD008F3D63 /* PresentableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentableViewController.swift; sourceTree = "<group>"; };
+		CC0F37FF29118D19008F3D63 /* PresentableTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentableTemplateViewController.swift; sourceTree = "<group>"; };
+		CC0F380129118D2A008F3D63 /* TemplateViewModelInputOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewModelInputOutput.swift; sourceTree = "<group>"; };
+		CC0F380329118D36008F3D63 /* TemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewController.swift; sourceTree = "<group>"; };
+		CC0F380529118D44008F3D63 /* TemplateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewModel.swift; sourceTree = "<group>"; };
+		CC0F380829118EB7008F3D63 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CC0F380A29118EC1008F3D63 /* ViewControllerBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBuilding.swift; sourceTree = "<group>"; };
+		CC0F380C29118EFE008F3D63 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		CC0F380E29118F07008F3D63 /* ViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBuilder.swift; sourceTree = "<group>"; };
 		CC5732E4290F4D1F00FFBB3F /* MVVMTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5732E9290F4D1F00FFBB3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CC5732EB290F4D1F00FFBB3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +94,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC0F37F029118C10008F3D63 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F380729118E6B008F3D63 /* Protocols */,
+				CC0F380C29118EFE008F3D63 /* RootCoordinator.swift */,
+				CC0F380E29118F07008F3D63 /* ViewControllerBuilder.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CC0F37F129118C14008F3D63 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F37FD29118CEB008F3D63 /* Template */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CC0F37F229118C21008F3D63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC0F37F329118C26008F3D63 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F37F629118C59008F3D63 /* Protocols */,
+				CC0F37F529118C4F008F3D63 /* Classes */,
+				CC0F37F429118C45008F3D63 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CC0F37F429118C45008F3D63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F37F929118C9F008F3D63 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC0F37F529118C4F008F3D63 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC0F37F629118C59008F3D63 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F37F729118C7A008F3D63 /* Configurable.swift */,
+				CC0F37FB29118CBD008F3D63 /* PresentableViewController.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CC0F37FD29118CEB008F3D63 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F37FE29118CFD008F3D63 /* Protocols */,
+				CC0F380329118D36008F3D63 /* TemplateViewController.swift */,
+				CC0F380529118D44008F3D63 /* TemplateViewModel.swift */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		CC0F37FE29118CFD008F3D63 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F37FF29118D19008F3D63 /* PresentableTemplateViewController.swift */,
+				CC0F380129118D2A008F3D63 /* TemplateViewModelInputOutput.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CC0F380729118E6B008F3D63 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F380829118EB7008F3D63 /* Coordinator.swift */,
+				CC0F380A29118EC1008F3D63 /* ViewControllerBuilding.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		CC5732DB290F4D1F00FFBB3F = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +204,10 @@
 		CC5732E6290F4D1F00FFBB3F /* MVVMTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				CC0F37F029118C10008F3D63 /* Application */,
+				CC0F37F129118C14008F3D63 /* Scenes */,
+				CC0F37F229118C21008F3D63 /* Models */,
+				CC0F37F329118C26008F3D63 /* Utilities */,
 				CC5732E9290F4D1F00FFBB3F /* SceneDelegate.swift */,
 				CC5732EB290F4D1F00FFBB3F /* ViewController.swift */,
 				CC5732F2290F4D2000FFBB3F /* LaunchScreen.storyboard */,
@@ -274,8 +387,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0F37FC29118CBD008F3D63 /* PresentableViewController.swift in Sources */,
+				CC0F380229118D2A008F3D63 /* TemplateViewModelInputOutput.swift in Sources */,
+				CC0F380929118EB7008F3D63 /* Coordinator.swift in Sources */,
+				CC0F380429118D36008F3D63 /* TemplateViewController.swift in Sources */,
+				CC0F380D29118EFE008F3D63 /* RootCoordinator.swift in Sources */,
+				CC0F37F829118C7A008F3D63 /* Configurable.swift in Sources */,
+				CC0F380629118D44008F3D63 /* TemplateViewModel.swift in Sources */,
 				CC5732EC290F4D1F00FFBB3F /* ViewController.swift in Sources */,
+				CC0F37FA29118C9F008F3D63 /* UIView+Extensions.swift in Sources */,
+				CC0F380B29118EC1008F3D63 /* ViewControllerBuilding.swift in Sources */,
+				CC0F380029118D19008F3D63 /* PresentableTemplateViewController.swift in Sources */,
 				CC5732EA290F4D1F00FFBB3F /* SceneDelegate.swift in Sources */,
+				CC0F380F29118F07008F3D63 /* ViewControllerBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
